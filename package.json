@@ -1,4 +1,5 @@
 {
+  "homepage": "http://alyssakelley.github.io/covid19_visualization",
   "name": "covid19_visualization",
   "version": "0.1.0",
   "private": true,
@@ -8,17 +9,22 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
     "chart.js": "^2.9.3",
     "classnames": "^2.2.6",
     "mapbox-gl": "^1.10.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-chartjs-2": "^2.9.0",
     "react-countup": "^4.3.3",
     "react-cx": "^0.1.12",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "tableau-api": "^2.2.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   }
 }
