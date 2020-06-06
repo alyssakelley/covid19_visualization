@@ -1,9 +1,9 @@
 # COVID-19 Visualization by Alyssa Kelley
 
-Disclaimer: The API used to create this application is can be viewed [here] (https://covid19.mathdro.id/api)
+Disclaimer: The API used to create this application is can be viewed [here](https://covid19.mathdro.id/api)
 
 Credit for the amazing idea and tutorial from the JavaScript Mastery Youtube 
-channel which can be viewed [here] (https://www.youtube.com/watch?v=khJlrj3Y6Ls)
+channel which can be viewed [here](https://www.youtube.com/watch?v=khJlrj3Y6Ls)
 
 # About this application
 
@@ -20,6 +20,8 @@ You can view a demonstration of this webapge by viewing the screen recording tit
 This webpage was created using the programming language JavaScript with some custom css styling. It was mainly derived using the React.js framework to display the HTML to views and handle user interaction, Chart.js to create the line and bar charts, Material UI that allowed the card displays at the beginning of the page, etc. 
 
 # How to run the application: 
+
+You can view the webpage [here](https://alyssakelley.github.io/covid19_visualization/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
